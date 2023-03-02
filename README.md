@@ -1,3 +1,4 @@
-#Projeto Little Petshop
+# Projeto Little Pet
 
-#Projeto
+## Descrição básica do Projeto
+
