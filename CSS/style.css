@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #9d70EB;
+}
+
+.masterHead {
+    background-color: #9d70EB;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.masterHead ul {
+    padding: 0;
+}
+
+.masterHead li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 2em;
+    font-family: Alegreya;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.masterHead li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.mainNav {
+    font-style: 
+    display: flex;
+    justify-content: flex-start;
+}
