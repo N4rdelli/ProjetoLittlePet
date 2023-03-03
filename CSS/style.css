@@ -1,10 +1,11 @@
 body {
     margin: 0;
-    background-color: #9d70EB;
+    background-color: #ffffff;
 }
 
 .masterHead {
     background-color: #9d70EB;
+    background-size: 10%;
     position: fixed;
     left: 0;
     right: 0;
@@ -18,8 +19,8 @@ body {
     list-style: none;
     display: block;
     float: left;
-    padding: 2em;
-    font-family: Alegreya;
+    padding: 32px;
+    font-family: 'Alegreya';
     font-size: x-large;
     font-weight: bold;
 }
@@ -30,7 +31,28 @@ body {
 }
 
 .mainNav {
-    font-style: 
-    display: flex;
+    font-style: 'Alegreya';
+        display: flex;
     justify-content: flex-start;
+}
+
+.imgDog {
+    position: absolute;
+    width: 3000px;
+    height: 3000px;
+    left: 701px;
+    top: 180px;
+    background: url(087c34b6-a4a2-4ad3-8d9e-2de99c7f8869.jpg);
+}
+
+.pesquisa {
+    font-family: 'Alegreya';
+    display: flex;
+    color: #E0E18A;
+    justify-content: flex-end;
+    position: right;
+    width: 440px;
+    height: 40px;
+
+
 }
