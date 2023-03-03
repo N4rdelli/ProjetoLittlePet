@@ -1,4 +1,5 @@
 .mainNav{
+    margin: auto;
     font-family: 'Alegreya';
     padding: 62px;
     text-decoration: none;
@@ -6,6 +7,21 @@
     background-color: #9d70eb;
     display: flex;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 40px
     
+}
+.pesquisa{
+    display: block;
+    justify-content: flex-end;
+    border-radius: 180px 0px 0px 180px;
+    height: 45px;
+    width: 500px;
+    border: none;
+
+}
+.envio{
+    display: flex;
+    justify-content: flex-end;
+    color: #e0e18a;
+    border: none;
 }
