@@ -1,60 +1,11 @@
-body {
-    margin:0;
-    background-color: #ffffff;
-}
-
-.masterHead {
-    background-color: #9d70EB;
-    background-size: 10%;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
-.masterHead ul {
-    padding: 0;
-}
-
-.masterHead li {
-    list-style: none;
-    display: block;
-    float: left;
-    padding: 48px;
+.mainNav{
     font-family: 'Alegreya';
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.masterHead li a {
+    padding: 62px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.mainNav {
-    font-style: 'Alegreya';
-        display: fixed;
-    justify-content: flex-start;
-}
-
-.imgDog {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    left: 701px;
-    top: 180px;
-    background: url(img/Dogsformas.png);
-}
-
-.pesquisa {
-    font-family: 'Alegreya';
+    color: white;
+    background-color: #9d70eb;
     display: flex;
-    background-color: #E0E18A;
-    justify-content: flex-end;
-    position: right;
-    width: 400px;
-    height: 30px;
-    border-radius: 180px 0 0 180px;
-    text-align: right;
-
-
+    justify-content: space-between;
+    font-size: 30px;
+    
 }
