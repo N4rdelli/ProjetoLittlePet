@@ -1,20 +1,41 @@
+:root {
+    --roxoFundo: #9d70eb;
+    --amarelinhoAliO: #e0e18a;
+}
+
+
+body {
+    margin: 0;
+}
+
+.headMaster {
+    height: 200px;
+    background-color: var(--roxoFundo);
+
+}
 
 .mainNav {
-    margin: auto;
     font-family: 'Alegreya';
-    padding: 62px;
+    /* padding: 62px; */
     text-decoration: none;
     color: white;
-    background-color: #9d70eb;
     display: flex;
     justify-content: space-between;
-    font-size: 40px;
+    font-size: 24px;
 
 }
 
 .mainNav a {
     text-decoration: none;
     color: white;
+}
+
+.mainNav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 93px;
+
 }
 
 .mainNav li {
@@ -24,34 +45,47 @@
 }
 
 .pesquisa {
-    display: block;
-    justify-content: flex-end;
     border-radius: 180px 0px 0px 180px;
-    height: 45px;
-    width: 500px;
+    height: 33px;
+    width: 300px;
     border: none;
+    margin-top: -20px;
 }
 
 .regist {
-    display: flex;
-    justify-content: flex-end;
-    color: #e0e18a;
+    background-color: var(--amarelinhoAliO);
+    border-radius: 180px 0px 0px 180px;
+    height: 33px;
+    width: 200px;
     border: none;
-    font-size: 20px;
+    margin-top: -100px;
+    padding-top: 10px;
+    float: right;
+}
+
+.regist a,
+.regist span{
+    margin-top: 10px;
+    padding-left: 25px;
+    text-decoration: none;
 }
 
 .container {
+
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+
+    justify-content: space-between;
     padding: 0;
     margin: 0;
+    padding-top: 80px;
     list-style: none;
+    height: 100px;
 }
 
 .container nav {
     display: flex;
     justify-content: left;
+
 }
 
 .container div {
