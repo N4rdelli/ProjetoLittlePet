@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin:0;
     background-color: #ffffff;
 }
 
@@ -19,7 +19,7 @@ body {
     list-style: none;
     display: block;
     float: left;
-    padding: 32px;
+    padding: 48px;
     font-family: 'Alegreya';
     font-size: x-large;
     font-weight: bold;
@@ -48,11 +48,13 @@ body {
 .pesquisa {
     font-family: 'Alegreya';
     display: flex;
-    color: #E0E18A;
+    background-color: #E0E18A;
     justify-content: flex-end;
     position: right;
-    width: 440px;
-    height: 40px;
+    width: 400px;
+    height: 30px;
+    border-radius: 180px 0 0 180px;
+    text-align: right;
 
 
 }
