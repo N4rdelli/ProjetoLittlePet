@@ -32,17 +32,17 @@ body {
 
 .mainNav {
     font-style: 'Alegreya';
-        display: flex;
+        display: fixed;
     justify-content: flex-start;
 }
 
 .imgDog {
     position: absolute;
-    width: 3000px;
-    height: 3000px;
+    width: 50%;
+    height: 50%;
     left: 701px;
     top: 180px;
-    background: url(087c34b6-a4a2-4ad3-8d9e-2de99c7f8869.jpg);
+    background: url(img/Dogsformas.png);
 }
 
 .pesquisa {
