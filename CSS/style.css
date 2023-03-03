@@ -1,4 +1,5 @@
-.mainNav{
+
+.mainNav {
     margin: auto;
     font-family: 'Alegreya';
     padding: 62px;
@@ -8,25 +9,52 @@
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    
+
 }
-.mainNav a{
+
+.mainNav a {
     text-decoration: none;
     color: white;
 }
-.pesquisa{
+
+.mainNav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pesquisa {
     display: block;
     justify-content: flex-end;
     border-radius: 180px 0px 0px 180px;
     height: 45px;
     width: 500px;
     border: none;
-
 }
-.envio{
+
+.regist {
     display: flex;
     justify-content: flex-end;
     color: #e0e18a;
     border: none;
     font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container nav {
+    display: flex;
+    justify-content: left;
+}
+
+.container div {
+    display: flex;
+    justify-content: right;
 }
