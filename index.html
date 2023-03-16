@@ -16,29 +16,45 @@
 <body>
     <header class="head">
         <h1><a href=""><img class="logoNav" src="img/logo.png" alt=""></a></h1>
-        <div class="barraPesquisa"><input class="pesquisa" placeholder="Pesquise na Little Pet"></div>
-        <div class="barraCad"><button class="cadastre-se" type="button" onclick="">Cadastre-se</button><button
-                class="entre" type="button" onclick="">Entre</button></div>
-        <div class="barraShop"><button class="shop">ícone</button></div>
-        <div class="barraSocial"><button class="social">ícone 1</button><button class="social">ícone 2</button><button
-                class="social">ícone 3</button></div>
-        <div>
-            <nav>
-                <ul class="nav">
-                    <li><a class="menuNavH" href="">Home</a></li>
-                    <li><a class="menuNavSN" href="">Sobre nós</a></li>
-                    <li><a class="menuNavP" href="">Produtos</a></li>
-                    <li><a class="menuNavSE" href="">Serviços</a></li>
-                    <li><a class="menuNavL" href="">Localização</a></li>
-                </ul>
-            </nav>
+        <div class="barraPesquisa"><input class="pesquisa" placeholder="Pesquise na Little Pet">
+
+            <a style="margin-left: 20px; text-decoration: none; color: black; z-index: 2;" class="fa fa-search"></a>
         </div>
+        <div class="barraCad"><a class="cadastre-se" href="">Cadastre-se</a><a class="entre" href="">Entre</a></div>
+        <div class="barraShop">
+            <a style="margin-left: 30px; margin-top: 10px; width: 50px; text-decoration: none; color: black; z-index: 2;"
+                class="fa fa-shopping-cart"></a>
+        </div>
+        <div>
+            <div class="barraSocial">
+                <a style="margin-left: 6px; margin-top: 21px ; text-decoration: none; color: black; z-index: 2;"
+                    class="fa fa-facebook" hreft=""></a>
+                <br>
+                <a style="margin-left: 6px; margin-top: 25px; text-decoration: none; color: black; z-index: 2; width: 30px;"
+                    class="fa fa-instagram" hreft=""></a>
+                <br>
+                <a style="margin-left: 6px; margin-top: 25px; text-decoration: none; color: black; z-index: 2; width: 30px;"
+                    class="fa fa-twitter" hreft=""></a>
+            </div>
+            <div>
+                <nav>
+                    <ul class="nav">
+                        <li><a class="menuNavH" href="#Home">Home</a></li>
+                        <li><a class="menuNavSN" href="#SobreNós">Sobre nós</a></li>
+                        <li><a class="menuNavP" href="#Produtos">Produtos</a></li>
+                        <li><a class="menuNavSE" href="#Serviços">Serviços</a></li>
+                        <li><a class="menuNavL" href="">Localização</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
+
 
     <br>
 
     <main class="backcolor">
-        <section class="sectionH">
+
+        <section id="Home" class="sectionH">
             <div>
                 <p class="textoinicio"> O <span>carinho</span> e a <span>qualidade</span> que o seu pet
                     <span>merece!</span>
@@ -52,8 +68,10 @@
                 <p class="banhoTosa1">Banho e Tosa Agende já!</p>
             </div>
         </section>
+
         <br>
-        <section class="sectionSN fundoSN">
+
+        <section id="SobreNós" class="sectionSN fundoSN">
             <img src="./img/cachorro1.png" alt="">
             <div class="SobreNós">
                 <h2 class="título"><strong>Sobre Nós</strong></h2>
@@ -66,17 +84,172 @@
                 </p>
             </div>
         </section>
+
         <br>
-        <section class="sectionP">
-            <div class="Produtos">
-                <h2 class="título"><strong>Produtos</strong></h2>
-                <p class="produtos">Atendemos todos os tipos de pets com as melhores marcas do mercado! Confira nossos
-                    produtos:</p>
+
+        <section id="Produtos" class="sectionP">
+            <div>
+                <table class="prod">
+                    <tr>
+                        <td>
+                            <h2 class="título"><strong>Produtos</strong></h2>
+                        </td>
+                        <td>
+                            <p class="produtos">Atendemos todos os tipos de pets com as melhores marcas do mercado!
+                                Confira nossos produtos:</p>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <ul class="imgspets">
+                        <li class="pets"><img src="img/Cachorro.png" alt="">
+                            <p>Cachorro</p>
+                        </li>
+                        <li class="pets"><img src="img/gato.png" alt="">
+                            <p>Gato</p>
+                        </li>
+                        <li class="pets"><img src="img/coelho.png" alt="">
+                            <p>Roedor</p>
+                        </li>
+                        <li class="pets"><img src="img/passaro.png" alt="">
+                            <p>Pássaro</p>
+                        </li>
+                </div>
+                </ul>
+        </section>
+
+        <br>
+
+        <section id="Serviços" class="sectionS">
+            <div class="Serviços">
+                <h2 class="título"><strong>Serviços</strong></h2>
+                <table class="serv">
+                    <tr class="titlServ">
+                        <td><b>Banho e Tosa</b></td>
+                        <td><b>Vacinação</b></td>
+                        <td><b>Clínicas Parceiras</b></td>
+                    </tr>
+                    <tr>
+                        <td>ícone 1</td>
+                        <td>ícone 2</td>
+                        <td>ícone 3</td>
+                    </tr>
+                    <tr class="textServ">
+                        <td>Nosso PetShop oferece serviço de Banho e Tosa para todos tipos de pet!</td>
+                        <td>A vacinação em cães e gatos protegem o animal de estimação contra doenças.<br>Mantenha a
+                            carteirinha de vacinação do seu pet em dia!</td>
+                        <td>A LittlePet trabalha em parceria com a renomada clínica VillagioVet.<br>Procura
+                            acompanhamento médico de primeira?</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="linkServ"><a href="">Agende já sua visita</a></div>
+                        </td>
+                        <td>
+                            <div class="linkServ"><a href="">Vacine seu pet!</a></div>
+                        </td>
+                        <td>
+                            <div class="linkServ"><a href="">Visite aqui o site!</a></div< /td>
+                    </tr>
+                </table>
             </div>
         </section>
 
+        <br>
+
+        <section id="Localização" class="sectioL">
+            <div style="margin-left: 100px" class="form-master">
+                <h2 style="color:#e0e18a; text-align:center;">entre em contato</h2>
+                <form action="" method="post">
+                    <input type="text" name="Nome" size="40" placeholder="NOME" pattern="[a-z]*">
+                    <br>
+                    <input type="email" name="E-MAIL" value="" size="40" placeholder="E-MAIL">
+                    <br>
+                    <textarea name="MENSAGEM" cols="40" rows="10" name="E-MAIL" value=""
+                        placeholder="MENSAGEM"></textarea>
+                    <div class="form-btn">
+                        <input type="submit" volue="enviar">
+
+                    </div>
+
+                </form>
+               
+            </div>
+            <div class="mapinha"><img src="img/mapasmz.png"></div>
+        </section>
     </main>
     <footer>
+        <div class="rodapé">
+            <div></div>
+            <table class="tabRod">
+                <tr>
+                    <td>
+                        <h3>Início<h3>
+                    </td>
+                    <td>
+                        <h3>Produtos<h3>
+                    </td>
+                    <td>
+                        <h3>Serviços<h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Home</p>
+                    </td>
+                    <td>
+                        <p>Cachorros</p>
+                    </td>
+                    <td>
+                        <p>Banho e Tosa</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Sobre nós</p>
+                    </td>
+                    <td>
+                        <p>Gatos</p>
+                    </td>
+                    <td>
+                        <p>Vacinação</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Produtos</p>
+                    </td>
+                    <td>
+                        <p>Roedores</p>
+                    </td>
+                    <td>
+                        <p>Clínicas Parceiras</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Serviços</p>
+                    </td>
+                    <td>
+                        <p>Pássaros</p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Contato</p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </footer>
 </body>
 

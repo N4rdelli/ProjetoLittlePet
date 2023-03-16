@@ -9,6 +9,7 @@ body {
     background-color: #9d70eb;
 }
 
+
 .logoNav {
     position: absolute;
     top: 30px;
@@ -25,7 +26,7 @@ body {
     padding: 0px 0px 0px 60px;
     position: absolute;
     top: 60px;
-    left: 330px
+    left: 330px;
 }
 
 .pesquisa {
@@ -57,8 +58,10 @@ body {
     border: none;
     font-size: 16px;
     font-family: 'Alegreya';
+    text-decoration: none;
     color: #382C3A;
-    padding: 5px 15px 5px 29px
+    padding: 5px 15px 5px 29px;
+    align-content: center;
 }
 
 .entre {
@@ -68,11 +71,13 @@ body {
     border: none;
     font-size: 16px;
     font-family: 'Alegreya';
+    text-decoration: none;
     color: #382C3A;
-    padding: 5px 29px 5px 15px
+    padding: 5px 29px 5px 15px;
+    align-content: center;
 }
 
-.barraShop{
+.barraShop {
     width: 70px;
     height: 30px;
     border-radius: 100pt 0pt 0pt 100pt;
@@ -82,7 +87,7 @@ body {
     right: 0px;
 }
 
-.shop{
+.shop {
     width: 20px;
     height: 20px;
     background-color: transparent;
@@ -91,6 +96,7 @@ body {
 }
 
 .barraSocial {
+
     width: 30px;
     height: 130px;
     border-radius: 0pt 100pt 100pt 0pt;
@@ -149,7 +155,7 @@ ul.nav li a {
     color: #FFFFFF;
 }
 
-span{
+span {
     color: #e0e18a;
 }
 
@@ -168,7 +174,8 @@ span{
     left: 100px;
     top: 550px;
 }
- .banhoTosa1 {
+
+.banhoTosa1 {
     width: 250px;
     height: 200px;
     color: #FFFFFF;
@@ -181,11 +188,11 @@ span{
     left: 200px;
 }
 
-.sectionH{
+.sectionH {
     height: 900px;
 }
 
-.curvas1{
+.curvas1 {
     position: absolute;
     width: 1438px;
     height: 920.97px;
@@ -196,7 +203,7 @@ span{
 
 
 
-.SobreNós{
+.SobreNós {
     text-align: right;
     width: 500px;
     height: 700px;
@@ -205,21 +212,22 @@ span{
     /* right: 150px; */
 }
 
-.título{
+.título {
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     color: #e0e18a;
+    width: fit-content;
 }
 
-.sobrenós{
+.sobrenós {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     color: #382C3A;
 }
 
-.sectionSN{
+.sectionSN {
     height: 900px;
     display: flex;
     justify-content: space-evenly;
@@ -227,22 +235,22 @@ span{
     padding-top: 30px;
 }
 
-.sectionSN img{
+.sectionSN img {
     height: 500px;
 }
 
-.fundoSN{
+.fundoSN {
     background: url('../img/tela petshop.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
-.Produtos{
-    display: inline;
+.sectionP {
+    height: 600px;
 }
 
-.produtos{
+.produtos {
     width: 800px;
     text-align: center;
     font-style: normal;
@@ -252,6 +260,218 @@ span{
     margin: 0px;
 }
 
-.sectionP{
-    height: 700px;
+table.prod {
+    margin: none;
+    display: inline;
+}
+
+table.prod td {
+    padding: 0px 20px 0px 20px;
+}
+
+.sectionS {
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+table.serv {
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+}
+
+.titlServ {
+    font-family: 'Alegreya';
+    font-size: 38px;
+    font-style: normal;
+    color: #382C3A;
+}
+
+table.serv td {
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 0 50px 0px 50px;
+}
+
+tr.textServ {
+    font-size: 24px;
+    font-style: normal;
+    color: #382C3A;
+}
+
+table.serv div.linkServ {
+    width: 225px;
+    border-radius: 100pt;
+    background-color: #e0e18a;
+    font-family: 'Alegreya';
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    align-items: center;
+}
+
+.sectionL {
+    height: 1200px;
+}
+
+.form-master {
+    width: fit-content;
+    background: #9d70eb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    margin: 0 auto;
+
+}
+
+.form-master input,
+.form-master textarea {
+    border-radius: 10px;
+    padding: 6px 16px;
+    margin-bottom: 20px;
+}
+
+.form-bttn {
+    display: flex;
+    justify-content: center;
+}
+
+.form-bttn input {
+    background-color: #FFFFFF;
+    color: #9d70eb;
+    border: none;
+    border-radius: 15px;
+}
+
+.vidro {
+    color: b
+}
+
+.imgspets li {
+    display: inline;
+    text-decoration: none;
+    padding: 80px;
+}
+
+.pets img {
+  
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.pets  p {
+display: inline;
+color: #e0e18a;
+font-size: 20px;
+position: absolute;
+padding-top: 200px;
+padding-left: -350px;
+margin: 0px;
+}
+
+.form-master {
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: rgb(170, 0, 255);
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 10px 10px 10px rgb(246, 246, 246)
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.form-master h2 {
+    color: rgb(183, 10, 232);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.form-master p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.form-master input,
+.form-master textarea {
+    border-radius: 10px;
+    padding: 6px 16px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid rgb(195, 195, 195)
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn input {
+    background-color: rgb(176, 2, 214);
+    color: #f1f1f1;
+    border: none;
+    border-radius: 2em;
+    height: 2em;
+    padding: 1em 2 em;
+    height: 2em;
+    width: 8em;
+}
+
+
+
+@keyframes shake {
+    25% {
+        translate: 6px 0;
+    }
+
+    50% {
+        translate: 6px 0;
+    }
+
+    75% {
+        translate: 6px 0;
+    }
+}
+
+.rodapé {
+     background-image:'../img/tela petshop 4.png';
+    height: 490px
+    float: bottom;
+    padding: none;
+    margin: none;
+}
+
+.tabRod{
+    width: 600px;
+}
+
+.tabRod td{
+    width: 200px;
+}
+
+.tabRod h3{
+    font-size: 24px;
+    font-style: normal;
+    color: #FFFFFF;
+    height: fit-content;
+}
+
+.tabRod p{
+    font-size: 16px;
+    font-style: normal;
+    color: #FFFFFF;
+    height: fit-content;
+    margin: none;
+}
+
+.mapinha{
+    margin-left: 600px;
+    width: 100px;
+    height: 200px
 }
