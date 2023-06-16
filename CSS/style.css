@@ -7,6 +7,8 @@ body {
     margin: 0;
     font-style: 'Alegreya';
     background-color: #9d70eb;
+
+    
 }
 
 
@@ -15,6 +17,7 @@ body {
     top: 30px;
     height: 140px;
     padding: 0px 0px 0px 50px;
+    display: flex;
 }
 
 
@@ -194,7 +197,7 @@ span {
 
 .curvas1 {
     position: absolute;
-    width: 1438px;
+    width: 100%px;
     height: 920.97px;
     left: 0px;
     top: 1065.19px;
@@ -204,27 +207,79 @@ span {
 
 
 .SobreNós {
-    text-align: right;
-    width: 500px;
-    height: 700px;
-    padding-top: 180px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
     /* position: absolute; */
     /* right: 150px; */
 }
 
-.título {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    color: #e0e18a;
-    width: fit-content;
+
+.tran{
+    /* Vector 4 */
+
+position: absolute;
+top: 980px;
+width: 100%;
 }
 
-.sobrenós {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: #382C3A;
+.títulosobrenós {
+position: absolute;
+width: 415px;
+height: 122px;
+right: 8%;
+top: 1200px;
+
+font-family: 'Alegreya';
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 131px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #E0E18A;
+
+text-shadow: 0px 5px 10px rgba(157, 112, 235, 0.25);
+
+
+}
+
+.sobrenóstexto {
+
+position: absolute;
+width: 528px;
+height: 371px;
+right: 8%;
+top: 1437px;
+
+font-family: 'Alegreya';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #382C3A;
+
+
+}
+.tela1 {
+/* Vector 22 */
+
+position: absolute;
+width: 600px;
+height: 400px;
+left: 75px;
+top: 1200px;
+
+
+
 }
 
 .sectionSN {
@@ -279,7 +334,7 @@ table.prod td {
 
 table.serv {
     align-items: center;
-    width: 1200px;
+    width: 100%px;
     height: 400px;
 }
 
@@ -317,7 +372,7 @@ table.serv div.linkServ {
 }
 
 .sectionL {
-    height: 1200px;
+    height: 100%px;
 }
 
 .form-master {
@@ -357,17 +412,19 @@ table.serv div.linkServ {
     display: inline;
     text-decoration: none;
     padding: 80px;
+    border: 20px;
 }
 
 .pets img {
   
     height: 200px;
     width: 200px;
-    border-radius: 20px;
+    border-radius: 100%;
 }
 .pets  p {
 display: inline;
 color: #e0e18a;
+border-radius: 100%;
 font-size: 20px;
 position: absolute;
 padding-top: 200px;
@@ -440,7 +497,7 @@ margin: 0px;
 }
 
 .rodapé {
-     background-image:'../img/tela petshop 4.png';
+     background-image:'img/imagensSitePrincipal/imagemrodapé.png';
     height: 490px
     float: bottom;
     padding: none;
@@ -460,9 +517,11 @@ margin: 0px;
     font-style: normal;
     color: #FFFFFF;
     height: fit-content;
+
 }
 
 .tabRod p{
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     color: #FFFFFF;
@@ -471,7 +530,38 @@ margin: 0px;
 }
 
 .mapinha{
-    margin-left: 600px;
-    width: 100px;
-    height: 200px
+    margin-left: 770px;
+    width: 200px;
+    height: 200px;
+    top: 100%;    
+}
+
+.formCont{
+    height: 500px;
+    width: 350px;
+    border-radius: 80px 0px 0px 80px;
+    background-color: #9d70eb;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.formCont form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formCont input, .formCont textarea{
+    background: none;
+    border: none;
+    height: 40px;
+    padding: 20px 0px 20px 0px;
+}
+
+.formCont button{
+    background-color: #FFFFFF;
+    height: 25px;
+    width: 75px;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 5px 0px 5px 0px
 }
