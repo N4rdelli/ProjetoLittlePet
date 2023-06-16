@@ -457,8 +457,6 @@ color: #E0E18A;
 }
 
 .textoProdutos{
-    /* Atendemos todos os tipos de pets com as melhores marcas do mercado! Confira nossos produtos: */
-
 position: absolute;
 width: 871px;
 height: 59px;
@@ -474,45 +472,55 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.divProdutos{
+/*.divPrincipalProdutos img{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 10%;
+    margin-top: 200px;
+    float: left;
 
+}
+
+.imgProdutos img{
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    float: left;
+    padding: 30px;
+    margin-left: 0px;
+   
+
+ 
+}
+.imgProdutos{
+    margin: none;
     
 }
-/*
-.divProdutos{
-    display: inline;
-    padding: 80px;
-}
-
-.pets img{
 
 
-position: absolute;
-display: inline;
-top: 2000px;
-padding: 80px;
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 54px;
-text-align: center;
-display: inline;
-width: 200px;
-height: 250px;
-border-radius: 20%;
+.pProdutos{
+    
+    
+    float: left;
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 400px;
+    color: #E0E18A;
+    
+    
+    
 
-color: #E0E18A;
-}
-*/
-
-
+/* Gatos */
 .curva2{
     /* Vector 28 */
 
 position: absolute;
 width: 100%;
-height: 150pxpx;
+height: 150px;
 top: 2500px;
 
 
@@ -594,15 +602,15 @@ footer {
 .sobre-a-loja {
     list-style: none;
     display: flex;
-    font-size: 13px;
+    font-size: 15px;
     top: -2px;
     width: fit-content;
 }
 
 .quem-somos {
     list-style: none;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 35px;
+    padding-right: 80px;
     font-size: larger;
     text-decoration: none;
     display: flow-root;
@@ -614,38 +622,102 @@ footer {
 }
 
 
-/* Serviços Disponíveis*/
+/* Produtos */
+
+.divProdutos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+/* Serviços Disponíveis */
 
 .servicosDisp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 760px;
+}
+
+.servicosDisp h1{
+    height: 60px;
+    font-family: "Alegreya";;
+    font-size: 60px;
+    color: #E0E18A;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* DIV's dos Serviços */
+
+.divServicos{
     display: flex;
     flex-direction: row;
 }
 
-
 .itensServicos{
     width: 300px;
-    height: 500px;
+    height: 400px;
     padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: none;
+    margin: 0px 40px 0px 40px;
 }
 
+.iconeServicos{
+    width: 50px;
+    height: 50px;
+    border: 5px #382C3A;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-.servicosDisp p{
+.itensServicos h2{
+    font-family: "Alegreya";
+    font-size: 35px;
+    color: #382C3A;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.itensServicos p{
     font-family: "Alegreya";
     font-size: 25px;
+    color: #382C3A;
+    text-align: center;
+    margin: 10px 0px
 }
 
-.servicosDisp button{
+.itensServicos button{
     width: 250px;
-    height:100px;
+    height:50px;
     background-color: #E0E18A;
     border-color: transparent;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: "Alegreya";
-    font-size: 30px;
+    font-size: 28px;
+    margin: 10px 0px;
 }
-
-
-
 
 
 /* Contate-nos */
@@ -660,7 +732,6 @@ footer {
     background-color: #ffffff;
 }
 
-
 /* Formulário para Contato */
 
 .formCont{
@@ -668,7 +739,7 @@ footer {
     width: 400px;
     border-radius: 80px 0px 0px 80px;
     background-color: #9d70eb;
-    box-shadow: 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
 }
@@ -692,10 +763,10 @@ footer {
 
 .formCont input, .formCont textarea{
     background: none;
+    border-color: #ffffff;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: #ffffff
     height: 40px;
     width: 250px;
     margin: 20px 0px 20px 0px;
@@ -727,7 +798,7 @@ footer {
     height: 500px;
     width: 700px;
     margin: 0px 0px 0px 30px;
-    box-shadow: 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     border-radius: 0px 80px 80px 0px;
 }
 
@@ -743,8 +814,18 @@ footer {
 .logoFooter {
     /* position: absolute; */
     /* top: 30px; */
-    height: 140px;
-    padding: 0px 0px 0px 50px;
+    width: 300px;
+    height: 200px;
+    padding: 0px 100px 0px 0px;
     display: flex;
 }
 
+.curva3 {
+    /* Vector 28 */
+
+position: absolute;
+width: 100%;
+height: 150px;
+top: 4155px;
+
+}
