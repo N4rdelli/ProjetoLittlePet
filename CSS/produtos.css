@@ -1,0 +1,262 @@
+/*NAV DE TODOS*/
+body {
+  margin: 0;
+  font-style: "Alegreya";
+  background-color: #9d70eb;
+}
+
+.logoNav {
+  position: absolute;
+  top: 30px;
+  height: 140px;
+  padding: 0px 0px 0px 50px;
+}
+
+.barraPesquisa {
+  width: 600px;
+  height: 30px;
+  border-radius: 100pt;
+  background-color: #e0e18a;
+  padding: 0px 0px 0px 60px;
+  position: absolute;
+  top: 60px;
+  left: 330px;
+}
+
+.pesquisa {
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: "Alegreya";
+  color: #382c3a;
+  padding: 5px 0px 5px 0px;
+}
+
+.barraCad {
+  width: 205px;
+  height: 30px;
+  border-radius: 100pt 0pt 0pt 100pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
+.cadastre-se {
+  background-color: transparent;
+  width: fit-content;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  font-family: "Alegreya";
+  color: #382c3a;
+  padding: 5px 15px 5px 29px;
+}
+
+.entre {
+  background-color: transparent;
+  width: fit-content;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  font-family: "Alegreya";
+  color: #382c3a;
+  padding: 5px 29px 5px 15px;
+}
+
+.barraCad {
+  width: 205px;
+  height: 30px;
+  border-radius: 100pt 0pt 0pt 100pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  text-align: center;
+}
+.barraCad a,
+p {
+  font-size: 16px;
+  font-family: "Alegreya";
+  text-decoration: none;
+  background-color: transparent;
+  color: #382c3a;
+  margin: 0px;
+  padding: 10px;
+  display: inline;
+  text-align: center;
+}
+
+.barraShop {
+  width: 70px;
+  height: 30px;
+  border-radius: 100pt 0pt 0pt 100pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+.fa fa-shopping-cart a {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.shop {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 15px 5px 15px 5px;
+}
+
+.barraSocial {
+  width: 30px;
+  height: 130px;
+  border-radius: 0pt 100pt 100pt 0pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 530px;
+  left: 0px;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 15px 5px 15px 5px;
+}
+
+.navDiv {
+  height: 150px;
+}
+
+ul.nav li {
+  list-style: none;
+  display: inline;
+}
+
+ul.nav {
+  margin: 0px;
+  position: absolute;
+  top: 125px;
+  left: 330px;
+  padding: 0px;
+}
+
+ul.nav li a {
+  float: left;
+  border: none;
+  width: fit-content;
+  font-family: "Alegreya";
+  font-size: 24px;
+  background-color: #9d70eb;
+  color: #ffffff;
+  text-align: left;
+  padding: 0px 53px 0px 0px;
+  text-decoration: none;
+}
+/*---------------------------------------------------------------------------*/
+/*Produtos Cachorros*/
+
+.gato {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  margin-top: 60px;
+}
+
+.gato::-webkit-scrollbar {
+  display: none;
+}
+
+.imagem {
+  width: 300px !important;
+  height: 400px !important;
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+}
+
+.gatoimg {
+  width: 1552px;
+  height: 170px;
+  left: 0px;
+  top: 1200px;
+  object-fit: cover;
+}
+
+.titulo {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.GATOS {
+  color: rgb(255, 255, 255);
+  margin: -100px 10px 100px 10px;
+  font-size: 30px;
+}
+
+.shContainer {
+  display: flex;
+  padding-bottom: 2em;
+  gap: 2em;
+  padding-left: 2em;
+  overflow-x: auto;
+  padding-right: 2em;
+}
+
+.shContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.itenImage {
+  width: 200px;
+  height: 260px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.itenImage img {
+  height: 110px;
+  margin-top: 15px;
+}
+
+.itenDesc {
+  width: 200px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: -135px;
+  z-index: 1;
+}
+
+.itenDesc p:nth-child(1) {
+  text-align: center;
+  height: 5px;
+  width: 5px;
+}
+
+.itenDesc p:nth-child(2) {
+  color: orange;
+  margin: 0px;
+  height: 5px;
+  width: 5px;
+  padding: 0px;
+}
+
+.itenDesc span {
+  font-size: small;
+  color: rgb(126, 126, 126);
+}
+
+.itenDesc p {
+  padding-left: 5px;
+  text-align: center;
+}

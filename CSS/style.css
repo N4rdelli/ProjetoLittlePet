@@ -1,831 +1,826 @@
 body {
-    margin: 0;
-    font-style: 'Alegreya';
-    background-color: #9d70eb;
-
-    
+  margin: 0;
+  font-style: "Alegreya";
+  background-color: #9d70eb;
 }
-
 
 .logoNav {
-    position: absolute;
-    top: 30px;
-    height: 140px;
-    padding: 0px 0px 0px 50px;
-    display: flex;
+  position: absolute;
+  top: 30px;
+  height: 140px;
+  padding: 0px 0px 0px 50px;
+  display: flex;
 }
 
-
 .barraPesquisa {
-    width: 600px;
-    height: 30px;
-    border-radius: 100pt;
-    background-color: #e0e18a;
-    padding: 0px 0px 0px 60px;
-    position: absolute;
-    top: 60px;
-    left: 330px;
+  width: 600px;
+  height: 30px;
+  border-radius: 100pt;
+  background-color: #e0e18a;
+  padding: 0px 0px 0px 60px;
+  position: absolute;
+  top: 60px;
+  left: 330px;
 }
 
 .pesquisa {
-    background-color: transparent;
-    width: 550px;
-    height: 20px;
-    border: none;
-    font-size: 20px;
-    font-family: 'Alegreya';
-    color: #382C3A;
-    padding: 5px 0px 5px 0px
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: "Alegreya";
+  color: #382c3a;
+  padding: 5px 0px 5px 0px;
 }
-
 
 .barraCad {
-    width: 205px;
-    height: 30px;
-    border-radius: 100pt 0pt 0pt 100pt;
-    background-color: #e0e18a;
-    position: absolute;
-    top: 60px;
-    right: 0px;
+  width: 205px;
+  height: 30px;
+  border-radius: 100pt 0pt 0pt 100pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  text-align: center;
 }
-
-.cadastre-se {
-    background-color: transparent;
-    width: fit-content;
-    height: 30px;
-    border: none;
-    font-size: 16px;
-    font-family: 'Alegreya';
-    text-decoration: none;
-    color: #382C3A;
-    padding: 5px 15px 5px 29px;
-    align-content: center;
-}
-
-.entre {
-    background-color: transparent;
-    width: fit-content;
-    height: 30px;
-    border: none;
-    font-size: 16px;
-    font-family: 'Alegreya';
-    text-decoration: none;
-    color: #382C3A;
-    padding: 5px 29px 5px 15px;
-    align-content: center;
+.barraCad a,
+p {
+  font-size: 16px;
+  font-family: "Alegreya";
+  text-decoration: none;
+  background-color: transparent;
+  color: #382c3a;
+  margin: 0px;
+  padding: 10px;
+  display: inline;
+  text-align: center;
 }
 
 .barraShop {
-    width: 70px;
-    height: 30px;
-    border-radius: 100pt 0pt 0pt 100pt;
-    background-color: #e0e18a;
-    position: absolute;
-    top: 100px;
-    right: 0px;
+  width: 80px;
+  height: 30px;
+  border-radius: 100pt 0pt 0pt 100pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+.fa fa-shopping-cart a {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
 }
 
 .shop {
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    border: none;
-    padding: 15px 5px 15px 5px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  display: inline;
+  text-align: center;
 }
 
 .barraSocial {
-
-    width: 30px;
-    height: 130px;
-    border-radius: 0pt 100pt 100pt 0pt;
-    background-color: #e0e18a;
-    position: absolute;
-    top: 530px;
-    left: 0px;
+  width: 30px;
+  height: 130px;
+  border-radius: 0pt 100pt 100pt 0pt;
+  background-color: #e0e18a;
+  position: absolute;
+  top: 530px;
+  left: 0px;
 }
 
 .social {
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    border: none;
-    padding: 15px 5px 15px 5px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 15px 5px 15px 5px;
 }
 
-
 ul.nav {
-    margin: 0px;
-    position: absolute;
-    top: 125px;
-    left: 330px;
-    padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 125px;
+  left: 330px;
+  padding: 0px;
 }
 
 ul.nav li {
-    list-style: none;
-    display: inline;
+  list-style: none;
+  display: inline;
 }
 
 ul.nav li a {
-    float: left;
-    border: none;
-    width: fit-content;
-    font-family: 'Alegreya';
-    font-size: 24px;
-    background-color: #9d70eb;
-    color: #ffffff;
-    text-align: left;
-    padding: 0px 53px 0px 0px;
-    text-decoration: none;
+  float: left;
+  border: none;
+  width: fit-content;
+  font-family: "Alegreya";
+  font-size: 24px;
+  background-color: #9d70eb;
+  color: #ffffff;
+  text-align: left;
+  padding: 0px 53px 0px 0px;
+  text-decoration: none;
 }
 
-
 .textoinicio {
-    position: absolute;
-    width: 410px;
-    height: 269px;
-    left: 110px;
-    top: 210px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 80px;
-    color: #FFFFFF;
+  position: absolute;
+  width: 410px;
+  height: 269px;
+  left: 110px;
+  top: 210px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
 }
 
 span {
-    color: #e0e18a;
+  color: #e0e18a;
 }
 
 .dogsInicio {
-    position: absolute;
-    width: 720px;
-    height: 600px;
-    left: 700px;
-    top: 250px;
+  position: absolute;
+  width: 720px;
+  height: 600px;
+  left: 700px;
+  top: 250px;
 }
 
 .vetorInicio {
-    position: absolute;
-    width: 450px;
-    height: 350px;
-    left: 100px;
-    top: 550px;
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 100px;
+  top: 550px;
 }
 
 .banhoTosa1 {
-    width: 250px;
-    height: 200px;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    position: absolute;
-    top: 660px;
-    left: 200px;
+  width: 250px;
+  height: 200px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  top: 680px;
+  left: 0px;
+  padding-left: 200px;
 }
 
 .sectionH {
-    height: 900px;
+  height: 900px;
 }
 /*---------------------------------------------------------------------*/
 
 .SobreNós {
+  width: 100%;
+  height: 100%;
 
-    width: 100%;
-    height: 100%;
-
-    background-color: white;
-    /* position: absolute; */
-    /* right: 150px; */
+  background-color: white;
+  /* position: absolute; */
+  /* right: 150px; */
 }
 
+.curva1 {
+  /* Vector 4 */
 
-.curva1{
-    /* Vector 4 */
-
-position: absolute;
-top: 980px;
-width: 100%;
+  position: absolute;
+  top: 980px;
+  width: 100%;
 }
 
 .títuloSobreNós {
-position: absolute;
-width: 415px;
-height: 122px;
-right: 8%;
-top: 1200px;
+  position: absolute;
+  width: 415px;
+  height: 122px;
+  right: 8%;
+  top: 1200px;
 
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 800;
-font-size: 96px;
-line-height: 131px;
-display: flex;
-align-items: center;
-text-align: right;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 131px;
+  display: flex;
+  align-items: center;
+  text-align: right;
 
-color: #E0E18A;
+  color: #e0e18a;
 
-text-shadow: 0px 5px 10px rgba(157, 112, 235, 0.25);
-
-
+  text-shadow: 0px 5px 10px rgba(157, 112, 235, 0.25);
 }
 
 .sobreNósTexto {
+  position: absolute;
+  width: 528px;
+  height: 371px;
+  right: 8%;
+  top: 1437px;
 
-position: absolute;
-width: 528px;
-height: 371px;
-right: 8%;
-top: 1437px;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: right;
 
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 33px;
-display: flex;
-align-items: center;
-text-align: right;
-
-color: #382C3A;
-
-
+  color: #382c3a;
 }
 .tela1 {
-/* Vector 22 */
+  /* Vector 22 */
 
-position: absolute;
-width: 600px;
-height: 400px;
-left: 75px;
-top: 1200px;
-
-
-
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 75px;
+  top: 1200px;
 }
 
 /*---------------------------------------------------------------------*/
- 
 
-.tranProduto{
-/* Vector 24 */
-/* Vector 24 */
+.tranProduto {
+  /* Vector 24 */
+  /* Vector 24 */
 
-position: absolute;
-width: 100%;
-height: 150px;
-top: 1790px;
-
-
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 1790px;
 }
-.sectionS{
-    background-color: white;
+.sectionS {
+  background-color: white;
 }
 
 .sectionSN {
-    height: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 30px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
 }
 
 .sectionSN img {
-    height: 500px;
+  height: 500px;
 }
 
 .fundoSN {
-    background: url('../img/tela petshop.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  background: url("../img/tela petshop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .sectionP {
-    height: 600px;
+  height: 600px;
 }
 
 .produtos {
-    width: 800px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: #382C3A;
-    margin: 0px;
+  width: 800px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #382c3a;
+  margin: 0px;
 }
 
 table.prod {
-    margin: none;
-    display: inline;
+  margin: none;
+  display: inline;
 }
 
 table.prod td {
-    padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .sectionS {
-    height: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 30px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
 }
 
 table.serv {
-    align-items: center;
-    width: 100%px;
-    height: 400px;
+  align-items: center;
+  width: 100%px;
+  height: 400px;
 }
 
 .titlServ {
-    font-family: 'Alegreya';
-    font-size: 38px;
-    font-style: normal;
-    color: #382C3A;
+  font-family: "Alegreya";
+  font-size: 38px;
+  font-style: normal;
+  color: #382c3a;
 }
-.tituloServicos{
-    /* Serviços */
+.tituloServicos {
+  /* Serviços */
 
-position: absolute;
-width: 854px;
-height: 69px;
-left: 294px;
-top: 2789px;
+  position: absolute;
+  width: 854px;
+  height: 69px;
+  left: 294px;
+  top: 2789px;
 
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 131px;
-display: flex;
-align-items: center;
-text-align: center;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 131px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #E0E18A;
-
-
+  color: #e0e18a;
 }
 
 table.serv td {
-    align-items: center;
-    text-align: center;
-    width: 300px;
-    padding: 0 50px 0px 50px;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  padding: 0 50px 0px 50px;
 }
 
 tr.textServ {
-    font-size: 24px;
-    font-style: normal;
-    color: #382C3A;
+  font-size: 24px;
+  font-style: normal;
+  color: #382c3a;
 }
 
 table.serv div.linkServ {
-    width: 225px;
-    border-radius: 100pt;
-    background-color: #e0e18a;
-    font-family: 'Alegreya';
-    font-size: 28px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    margin: 0px;
-    align-items: center;
+  width: 225px;
+  border-radius: 100pt;
+  background-color: #e0e18a;
+  font-family: "Alegreya";
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px;
+  align-items: center;
 }
 
 .sectionL {
-    height: 100%px;
+  height: 100%px;
 }
 
 .form-master {
-    width: fit-content;
-    background: #9d70eb;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 2em;
-    margin: 0 auto;
-
+  width: fit-content;
+  background: #9d70eb;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 2em;
+  margin: 0 auto;
 }
 
 .form-master input,
 .form-master textarea {
-    border-radius: 10px;
-    padding: 6px 16px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 6px 16px;
+  margin-bottom: 20px;
 }
 
 .form-bttn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form-bttn input {
-    background-color: #FFFFFF;
-    color: #9d70eb;
-    border: none;
-    border-radius: 15px;
+  background-color: #ffffff;
+  color: #9d70eb;
+  border: none;
+  border-radius: 15px;
 }
 
 .vidro {
-    color: b
+  color: b;
 }
 
-.tituloProdutos{
-    /* Produtos */
+.tituloProdutos {
+  /* Produtos */
 
-position: absolute;
-width: 387px;
-height: 68px;
-left: 74px;
-top: 1900px;
+  position: absolute;
+  width: 387px;
+  height: 68px;
+  left: 74px;
+  top: 1900px;
 
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 800;
-font-size: 96px;
-line-height: 131px;
-display: flex;
-align-items: center;
-text-align: center;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 131px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #E0E18A;
-
-
+  color: #e0e18a;
 }
 
-.textoProdutos{
-position: absolute;
-width: 871px;
-height: 59px;
-left: 488px;
-top: 1980px;
+.textoProdutos {
+  position: absolute;
+  width: 871px;
+  height: 59px;
+  left: 488px;
+  top: 1980px;
 
-font-family: 'Alegreya';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 33px;
-text-align: center;
-color: #FFFFFF;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
 }
-
-/*.divPrincipalProdutos img{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    height: 10%;
-    margin-top: 200px;
-    float: left;
-
-}
-
-.imgProdutos img{
-    display: flex;
-    flex-direction: column;
-    margin: none;
-    float: left;
-    padding: 30px;
-    margin-left: 0px;
-   
-
- 
-}
-.imgProdutos{
-    margin: none;
-    
-}
-
-
-.pProdutos{
-    
-    
-    float: left;
-    font-family: 'Alegreya';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 400px;
-    color: #E0E18A;
-    
-    
-    
 
 /* Gatos */
-.curva2{
-    /* Vector 28 */
+.curva2 {
+  /* Vector 28 */
 
-position: absolute;
-width: 100%;
-height: 150px;
-top: 2500px;
-
-
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 2500px;
 }
 
 .form-master {
-    width: fit-content;
-    text-transform: uppercase;
-    background-color: rgb(170, 0, 255);
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 10px 10px 10px rgb(246, 246, 246);
-    padding: 2em;
-    margin: 0 auto;
+  width: fit-content;
+  text-transform: uppercase;
+  background-color: rgb(170, 0, 255);
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 10px 10px 10px rgb(246, 246, 246);
+  padding: 2em;
+  margin: 0 auto;
 }
 
 .form-master h2 {
-    color: rgb(183, 10, 232);
-    text-align: center;
-    margin-bottom: 0px;
+  color: rgb(183, 10, 232);
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .form-master p {
-    text-align: center;
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }
 
 .form-master input,
 .form-master textarea {
-    border-radius: 10px;
-    padding: 6px 16px;
-    margin-bottom: 20px;
-    background: transparent;
-    border: 1px solid rgb(195, 195, 195)
+  border-radius: 10px;
+  padding: 6px 16px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid rgb(195, 195, 195);
 }
 
 .form-btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form-btn input {
-    background-color: rgb(176, 2, 214);
-    color: #f1f1f1;
-    border: none;
-    border-radius: 2em;
-    height: 2em;
-    padding: 1em 2 em;
-    height: 2em;
-    width: 8em;
+  background-color: rgb(176, 2, 214);
+  color: white;
+  border: none;
+  border-radius: 2em;
+  height: 2em;
+  padding: 1em 2 em;
+  height: 2em;
+  width: 8em;
 }
-
-
 
 @keyframes shake {
-    25% {
-        translate: 6px 0;
-    }
+  25% {
+    translate: 6px 0;
+  }
 
-    50% {
-        translate: 6px 0;
-    }
+  50% {
+    translate: 6px 0;
+  }
 
-    75% {
-        translate: 6px 0;
-    }
-}
-
-footer {
-    background: url("./img/imagensSitePrincipal/imagemrodape.png") no-repeat;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
+  75% {
+    translate: 6px 0;
+  }
 }
 
 .sobre-a-loja {
-    list-style: none;
-    display: flex;
-    font-size: 15px;
-    top: -2px;
-    width: fit-content;
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  top: -2px;
+  width: fit-content;
 }
-
-.quem-somos {
-    list-style: none;
-    padding-left: 35px;
-    padding-right: 80px;
-    font-size: larger;
-    text-decoration: none;
-    display: flow-root;
-    justify-content: center;
-    color: white;
-    text-align: left;
-    font-weight: 200;
-
-}
-
 
 /* Produtos */
 
-.divProdutos{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.divProdutos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.produtos{
-    display: flex;
-    flex-direction: column;
+.produtos {
+  display: flex;
+  flex-direction: column;
 }
 
-.produtos img{
-    height: 100px;
-    width: 100px;
+.produtos img {
+  height: 100px;
+  width: 100px;
 }
-
-
-
-
 
 /* Serviços Disponíveis */
 
-.servicosDisp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 760px;
+.servicosDisp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 760px;
 }
 
-.servicosDisp h1{
-    height: 60px;
-    font-family: "Alegreya";;
-    font-size: 60px;
-    color: #E0E18A;
-    text-align: center;
-    font-weight: bolder;
+.servicosDisp h1 {
+  height: 60px;
+  font-family: "Alegreya";
+  font-size: 60px;
+  color: #e0e18a;
+  text-align: center;
+  font-weight: bolder;
 }
 
 /* DIV's dos Serviços */
 
-.divServicos{
-    display: flex;
-    flex-direction: row;
+.divServicos {
+  display: flex;
+  flex-direction: row;
 }
 
-.itensServicos{
-    width: 300px;
-    height: 400px;
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: none;
-    margin: 0px 40px 0px 40px;
+.itensServicos {
+  width: 300px;
+  height: 400px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: none;
+  margin: 0px 40px 0px 40px;
+  text-decoration: none;
 }
 
-.iconeServicos{
-    width: 50px;
-    height: 50px;
-    border: 5px #382C3A;
-    background-color: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.iconeServicos {
+  width: 50px;
+  height: 50px;
+  border: 5px #382c3a;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.itensServicos h2{
-    font-family: "Alegreya";
-    font-size: 35px;
-    color: #382C3A;
-    text-align: center;
-    font-weight: bolder;
+.itensServicos h2 {
+  font-family: "Alegreya";
+  font-size: 35px;
+  color: #382c3a;
+  text-align: center;
+  font-weight: bolder;
 }
 
-.itensServicos p{
-    font-family: "Alegreya";
-    font-size: 25px;
-    color: #382C3A;
-    text-align: center;
-    margin: 10px 0px
+.itensServicos p {
+  font-family: "Alegreya";
+  font-size: 25px;
+  color: #382c3a;
+  text-align: center;
+  margin: 10px 0px;
 }
 
-.itensServicos button{
-    width: 250px;
-    height:50px;
-    background-color: #E0E18A;
-    border-color: transparent;
-    border-radius: 30px;
-    font-family: "Alegreya";
-    font-size: 28px;
-    margin: 10px 0px;
+.itensServicos button {
+  width: 250px;
+  height: 50px;
+  background-color: #e0e18a;
+  border-color: transparent;
+  border-radius: 30px;
+  font-family: "Alegreya";
+  font-size: 28px;
+  margin: 10px 0px;
+  text-decoration: none;
 }
-
 
 /* Contate-nos */
-.contate{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 760px;
-    background-color: #ffffff;
+.contate {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 770px;
+  background-color: white;
 }
 
 /* Formulário para Contato */
 
-.formCont{
-    height: 500px;
-    width: 400px;
-    border-radius: 80px 0px 0px 80px;
-    background-color: #9d70eb;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: row;
+.formCont {
+  height: 500px;
+  width: 400px;
+  border-radius: 80px 0px 0px 80px;
+  background-color: #9d70eb;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
 }
 
-.formCont form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    height: 100%;
+.formCont form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 100%;
 }
 
-.formCont h1{
-    height: 50px;
-    font-family: "Alegreya";;
-    font-size: 50px;
-    color: #E0E18A;
-    text-align: center;
-    font-weight: bolder;
+.formCont h1 {
+  height: 50px;
+  font-family: "Alegreya";
+  font-size: 50px;
+  color: #e0e18a;
+  text-align: center;
+  font-weight: bolder;
 }
 
-.formCont input, .formCont textarea{
-    background: none;
-    border-color: #ffffff;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    height: 40px;
-    width: 250px;
-    margin: 20px 0px 20px 0px;
+.formCont input,
+.formCont textarea {
+  background: none;
+  border-color: #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
+  width: 250px;
+  margin: 20px 0px 20px 0px;
 }
 
-.formCont input::placeholder, .formCont textarea::placeholder{
-    font-family: "Alegreya";
-    color: #ffffff;
-    font-size: 18px;
-    text-align: left;
+.formCont input::placeholder,
+.formCont textarea::placeholder {
+  font-family: "Alegreya";
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
 }
 
-.formCont button{
-    background-color: #FFFFFF;
-    height: 30px;
-    width: 150px;
-    border-color: transparent;
-    border-radius: 20px;
-    color: #9d70eb;
-    font-size: 20px;
-    font-family: "Alegreya";
-    margin: 30px 0px 20px 0px;
-    align-content: center;
+.formCont button {
+  background-color: #ffffff;
+  height: 30px;
+  width: 150px;
+  border-color: transparent;
+  border-radius: 20px;
+  color: #9d70eb;
+  font-size: 20px;
+  font-family: "Alegreya";
+  margin: 30px 0px 20px 0px;
+  align-content: center;
 }
 
 /* Mapa para localização */
 
-.mapinha{
-    height: 500px;
-    width: 700px;
-    margin: 0px 0px 0px 30px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 80px 80px 0px;
+.mapinha {
+  height: 500px;
+  width: 700px;
+  margin: 0px 0px 0px 30px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 80px 80px 0px;
 }
 
-.mapinha img{
-    height: 500px;
-    width: 700px;
-    border-radius: 0px 80px 80px 0px;
+.mapinha img {
+  height: 500px;
+  width: 700px;
+  border-radius: 0px 80px 80px 0px;
 }
-
 
 /* Foot */
+footer {
+  background: url("./img/imagensSitePrincipal/imagemrodape.png") no-repeat;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
 
+.quem-somos {
+  list-style: none;
+  padding-left: 35px;
+  padding-right: 80px;
+  font-size: larger;
+  text-decoration: none;
+  display: flow-root;
+  justify-content: center;
+  color: white;
+  text-align: left;
+  font-weight: 200;
+}
 .logoFooter {
-    /* position: absolute; */
-    /* top: 30px; */
-    width: 300px;
-    height: 200px;
-    padding: 0px 100px 0px 0px;
-    display: flex;
+  /* position: absolute; */
+  /* top: 30px; */
+  width: 300px;
+  height: 200px;
+  padding: 0px 100px 0px 0px;
+  display: flex;
 }
 
 .curva3 {
-    /* Vector 28 */
+  /* Vector 28 */
 
-position: absolute;
-width: 100%;
-height: 150px;
-top: 4155px;
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  top: 4155px;
+}
 
+.imagens-topo {
+  scrollbar-width: none;
+  margin-top: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+  list-style: none;
+  display: flex;
+  gap: 5em;
+  overflow-y: auto;
+  position: 2000px;
+}
+
+.imagens-topo li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagens-topo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0;
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.imagens-topo p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #e0e18a;
+  font-size: 30px;
+}
+.curva4 {
+  /* Vector 28 */
+
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 3450px;
+}
+.tranProdutinhos {
+  /* Vector 24 */
+  /* Vector 24 */
+
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 3300px;
+}
+
+.bannerAviso {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #ffffff8f;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerAviso div,
+.bannerAviso h2,
+.bannerAviso p {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
 }
